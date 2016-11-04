@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" class="gameHead">
+          <h2>Play Pig Dice</h2>
+        </div>
+      </div>
+      <div class="row user-input">
+        <form id="player-input">
+          <div class="form-group">
+            <label for="player-name">Please enter your name:</label>
+            <input type="player-name" class="form-control">
+          </div>
+          <div class="user-display">
+            <ul>
+              <li></li>
+            </ul>
+          </div>
+          <button type="button" name="button">Add player!</button>
+        </form>
+      </div>
+      <!-- <div class="row">
+        <div class="col-md-6 well playerOne">
+          <h3>Player One</h3>
+          <button id="playerRoll" type="button" class="btn btn-primary">Roll Dice</button>&nbsp;&nbsp;
+          <button id="playerHold" type="button" class="btn btn-danger">Hold</button>
+          <div class="displayRoll">
+            <h6>Roll Return</h6>
+            <p>&nbsp;<span id="rollOne"></span></p>
+            <h6>Turn Total</h6>
+            <p>&nbsp;<span id="turnTotal"></span></p>
+          </div>
+        </div>
+      </div> -->
+
+<!-- player 2 column -->
+      <div class="row">
+                <p>&nbsp;</p>        <p>&nbsp;</p>        <p>&nbsp;</p>
+        <div class="col-md-6 well playerTwo">
+          <h3>Player Two</h3>
+          <button id="playerRoll1" type="button" class="btn btn-primary">Roll Dice</button>&nbsp;&nbsp;
+          <button id="playerHold1" type="button" class="btn btn-danger">Hold</button>
+          <div class="displayRoll1">
+            <h6>Roll Return</h6>
+            <p>&nbsp;<span id="rollOne1"></span></p>
+            <h6>Turn Total</h6>
+            <p>&nbsp;<span id="turnTotal1"></span></p>
+          </div>
+        </div>
+      </div>
+
+<!-- game totals for each player -->
+
+      <div class="row">
+        <div class="col-md-6 well playerOneScore">
+          <h6>Player One Overall Score</h6>
+          <p>&nbsp;<span id="playerScore"></span></p>
+        </div>
+        <div class="col-md-6 well playerTwoScore">
+          <h6>Player Two Overall Score</h6>
+          <p>&nbsp;<span id="playerTwoScore"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
